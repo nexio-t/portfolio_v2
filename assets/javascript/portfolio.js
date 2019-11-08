@@ -1,4 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
+
+  // Card toggle 
   let cardToggles = document.getElementsByClassName("card-toggle");
   for (let i = 0; i < cardToggles.length; i++) {
     cardToggles[i].addEventListener("click", e => {
@@ -11,21 +13,21 @@ document.addEventListener("DOMContentLoaded", function() {
   }
 
 
-    // Get all "navbar-burger" elements
+    // Javascript for navbar burger 
     const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
 
-    // Check if there are any navbar burgers
+ 
     if ($navbarBurgers.length > 0) {
   
-      // Add a click event on each of them
+  
       $navbarBurgers.forEach( el => {
         el.addEventListener('click', () => {
   
-          // Get the target from the "data-target" attribute
+     
           const target = el.dataset.target;
           const $target = document.getElementById(target);
   
-          // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+       
           el.classList.toggle('is-active');
           $target.classList.toggle('is-active');
   
@@ -33,7 +35,7 @@ document.addEventListener("DOMContentLoaded", function() {
       });
     }
 
-
+  // Navigation bar change to transparent 
   var scroll_start = 0;
   var startchange = $(".start-change");
   var offset = startchange.offset();
@@ -50,7 +52,7 @@ document.addEventListener("DOMContentLoaded", function() {
     }
   });
 
-
+// Scroll to relevant section 
   $('a[href^="#"]').on('click', function(e) {
     var target = $(this.getAttribute('href'));
     if( target.length ) {
