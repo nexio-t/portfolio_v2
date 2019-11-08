@@ -58,7 +58,7 @@ document.addEventListener("DOMContentLoaded", function() {
     if( target.length ) {
         e.preventDefault();
         $('html, body').stop().animate({
-            scrollTop: target.offset().top - 20
+            scrollTop: target.offset().top
         }, 1000);
     }
 });

@@ -4,6 +4,9 @@
   z-index: 2; 
 }
 
+.fa-angle-double-down {
+  color: white; 
+}
 
 .is-horizontal-center {
   justify-content: center;
@@ -37,7 +40,7 @@
 }
 
 .navbar-change-white {
-  background-color: #fff !important;
+  background-color: #fff  !important;
   border-bottom: 1px solid lightgray;
   transition: background-color 200ms linear;
   /* box-shadow: -2px 10px 6px -9px rgba(0,0,0,0.43); */
@@ -141,3 +144,8 @@ h1 {
   padding-top: 20px;
   padding-bottom: 20px;
 }
+
+.footer-style {
+  background: #add8e6 !important; 
+}
+
