@@ -1,37 +1,44 @@
+.has-bg-img {
+  background: url("../images/philly-skyline.png") center center;
+  background-size: cover;
+  z-index: 2; 
+}
+
+
 .is-horizontal-center {
-    justify-content: center;
-  }
+  justify-content: center;
+}
 
 .bio-image {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /* margin: 5px;  */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* margin: 5px;  */
 }
 
 .imgwrap {
-    width: auto; /*or whatever you choose*/
-    margin: auto;
- }
+  width: auto; /*or whatever you choose*/
+  margin: auto;
+}
 
- .tomas-image {
-   margin-bottom: 10px; 
-   border-radius: 60%; 
-   height: 220px; 
-   width: auto; 
- }
+.tomas-image {
+  margin-bottom: 10px;
+  border-radius: 60%;
+  height: 220px;
+  width: auto;
+}
 
- .contact-info {
-   margin-top: 10px; 
- }
+.contact-info {
+  margin-top: 10px;
+}
 
- .project-card {
-   margin-bottom: 30px; 
- }
+.project-card {
+  margin-bottom: 30px;
+}
 
- .navbar-change-white {
+.navbar-change-white {
   background-color: #fff !important;
-  border-bottom: 1px solid lightgray; 
+  border-bottom: 1px solid lightgray;
   transition: background-color 200ms linear;
   /* box-shadow: -2px 10px 6px -9px rgba(0,0,0,0.43); */
 }
@@ -40,17 +47,16 @@
   background-color: transparent !important;
   transition: background-color 200ms linear;
 }
-
+/* 
 .custom-gradient {
   background: rgb(9,212,255) !important;
 background: linear-gradient(90deg, rgba(9,212,255,1) 0%, rgba(0,212,255,1) 14%, rgba(149,67,64,1) 70%) !important;
-}
+} */
 
 .is-vertical-center {
-    display: flex;
-    align-items: center;
-  }
-
+  display: flex;
+  align-items: center;
+}
 
 hr {
   /* display: block; */
@@ -59,46 +65,56 @@ hr {
   border-top: 1px solid #ccc;
   margin: 1em 0;
   padding: 0; */
-  width: 20%; 
-  margin-right: auto; 
-  margin-left: auto; 
-  margin-bottom: 30px; 
+  width: 20%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 30px;
 }
-  
-  .arrow {
-    text-align: center;
-    margin: 8% 0;
-  }
 
-  .bounce {
-    -moz-animation: bounce 2s infinite;
-    -webkit-animation: bounce 2s infinite;
-    animation: bounce 2s infinite;
+.arrow {
+  text-align: center;
+  margin: 8% 0;
+}
+
+.bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
   }
-  
-  @keyframes bounce {
-    0%, 20%, 50%, 80%, 100% {
-      transform: translateY(0);
-    }
-    40% {
-      transform: translateY(-20px);
-    }
-    60% {
-      transform: translateY(-10px);
-    }
+  40% {
+    transform: translateY(-20px);
   }
+  60% {
+    transform: translateY(-10px);
+  }
+}
 
 .nav-style {
   color: black !important;
-} 
+}
 
 h1 {
-  font-family: 'Josefin Sans', sans-serif;
-  font-weight: 700; 
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 700;
+}
+
+.title {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 800;
+  font-size: 30pt; 
 }
 
 .subtitle {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .nav-style1 {
@@ -106,12 +122,10 @@ h1 {
   height: 50px;
   line-height: 50px;
   text-align: center;
-  margin: 20px; 
-
-} 
+  margin: 20px;
+}
 
 .contact_item {
   padding-top: 20px;
-  padding-bottom: 20px;  
+  padding-bottom: 20px;
 }
-
