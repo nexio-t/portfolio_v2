@@ -110,11 +110,23 @@ h1 {
 .title {
   font-family: "Josefin Sans", sans-serif;
   font-weight: 800;
-  font-size: 30pt; 
+  font-size: 28pt; 
+  margin-top: 80px; 
+  color: black  !important; 
 }
 
-.subtitle {
-  font-family: "Montserrat", sans-serif;
+.intro-welcome {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 800;
+  font-size: 28pt; 
+  margin-top: 80px; 
+  color: white  !important; 
+}
+
+.bio-subtitle {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 600; 
+  font-size: 20pt; 
 }
 
 .nav-style1 {
