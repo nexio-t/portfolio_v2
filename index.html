@@ -21,7 +21,7 @@
 </head>
 
 <body>
-  <section id="home" class="hero is-info is-large has-bg-img">
+  <section id="home" class="hero is-large has-bg-img">
     <div class="hero-head">
       <nav class="navbar is-fixed-top navigation-bar">
         <div class="container">
@@ -37,8 +37,8 @@
           </div>
           <div id="navbarMenuHeroB" class="navbar-menu">
             <div class="navbar-end">
-              <a href="#first-stop" >
-                <span class="nav-style1"> About </span>
+              <a href="#first-stop" class="navbar-item navbar-height">
+                <span class="nav-style"> About </span>
               </a>
               <a href="#second-stop" class="navbar-item ">
                 <span class="nav-style"> Portfolio </span>
@@ -78,36 +78,39 @@
     <div class="start-change"></div>
   </section>
 
-  <section class="section" href="#about" id="first-stop">
+  <section class="section anchor" href="#about" id="first-stop">
     <div class="container">
       <h1 class="title has-text-centered type-effect">About me</h1>
 
       <hr>
 
       <div class="columns">
+        <div class="column "></div>
         <div class="column">
           <div class="img-wrap is-flex is-horizontal-center">
             <img class="tomas-image" src="assets/images/headshot.png" alt="Tomas' Headshot" />
           </div>
         </div>
-        <div class="column is-two-thirds">
+        <div class="column is-5">
           <h2 class="subtitle">
-            I'm a philly-based full-stack software developer who enjoys
-            building things and solving tricky problems. I graduated
-            from the University of Pennsylvania in December of 2015 and was
+            I'm a Philly-based full-stack developer who enjoys
+            steeping himself in technical minutiae and big projects. I graduated
+            summa cum laude from the University of Pennsylvania in December of 2015 and was
             previously an entrepreneur and management consultant in New York City.
           </h2>
           <h2 class="subtitle">
             I am currently a student in Penn's coding bootcamp, with a focus on the MERN stack.
           </h2>
         </div>
+
+        <div class="column "></div>
       </div>
     </div>
   </section>
 
 
   <!-- Start of Projects -->
-  <section class="section" id="second-stop">
+  <section class="section anchor" id="second-stop">
     <div class="container">
       <h1 class="title has-text-centered type-effect">Projects</h1>
 
@@ -117,6 +120,7 @@
 
   <section class="container">
     <div class="columns">
+
       <div class="column project-card">
         <div class="card is-fullwidth">
           <div class="card-image">
@@ -185,6 +189,7 @@
     </div>
     
     <div class="columns">
+
       <div class="column project-card">
         <div class="card is-fullwidth">
           <div class="card-image">
@@ -251,6 +256,7 @@
     </div>
 
     <div class="columns">
+
       <div class="column project-card">
         <div class="card is-fullwidth">
           <div class="card-image">
@@ -347,13 +353,12 @@
         </div>
       </div>
      
-     
     </div>
 
   </section>
 
 
-  <section class="section contact-info" id="third-stop">
+  <section class="section anchor contact-info" id="third-stop">
     <div class="container">
       <h1 class="title has-text-centered">Contact</h1>
 
@@ -414,8 +419,6 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
   <script type="text/javascript" src="assets/javascript/portfolio.js"></script>
-
-
 
 </body>
 

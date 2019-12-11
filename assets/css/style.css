@@ -1,7 +1,9 @@
 .has-bg-img {
-  background: url("../images/philly-skyline.png") center center;
+  background: url("../images/phillySkyline.png") center center;
   background-size: cover;
   z-index: 2; 
+  background-color: rgba(139, 186, 230, 0.75) !important;
+  background-blend-mode: color;
 }
 
 .fa-angle-double-down {
@@ -22,6 +24,10 @@
 .imgwrap {
   width: auto; /*or whatever you choose*/
   margin: auto;
+}
+
+.img-wrap {
+  min-width: 220px;
 }
 
 .tomas-image {
@@ -50,11 +56,7 @@
   background-color: transparent !important;
   transition: background-color 200ms linear;
 }
-/* 
-.custom-gradient {
-  background: rgb(9,212,255) !important;
-background: linear-gradient(90deg, rgba(9,212,255,1) 0%, rgba(0,212,255,1) 14%, rgba(149,67,64,1) 70%) !important;
-} */
+
 
 .is-vertical-center {
   display: flex;
@@ -62,12 +64,6 @@ background: linear-gradient(90deg, rgba(9,212,255,1) 0%, rgba(0,212,255,1) 14%, 
 }
 
 hr {
-  /* display: block; */
-  /* height: 1px;
-  border: 0;
-  border-top: 1px solid #ccc;
-  margin: 1em 0;
-  padding: 0; */
   width: 20%;
   margin-right: auto;
   margin-left: auto;
@@ -102,7 +98,9 @@ hr {
 }
 
 .nav-style {
-  color: black !important;
+  color: #323232;
+  font-size: 14pt;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 h1 {
@@ -110,34 +108,29 @@ h1 {
   font-weight: 700;
 }
 
-.title {
-  font-family: "Josefin Sans", sans-serif;
-  font-weight: 800;
-  font-size: 28pt; 
-  margin-top: 80px; 
-  color: black  !important; 
-}
-
 .intro-welcome {
   font-family: "Josefin Sans", sans-serif;
   font-weight: 800;
-  font-size: 28pt; 
+  font-size: 32pt; 
   margin-top: 80px; 
-  color: white  !important; 
+  color: #323232;
+}
+
+.anchor { 
+  padding-top: 70px; 
 }
 
 .bio-subtitle {
   font-family: "Josefin Sans", sans-serif;
   font-weight: 600; 
   font-size: 20pt; 
+  color: #323232;
 }
 
-.nav-style1 {
-  color: black !important;
+
+
+.navbar-height {
   height: 50px;
-  line-height: 50px;
-  text-align: center;
-  margin: 20px;
 }
 
 .contact_item {
@@ -145,7 +138,15 @@ h1 {
   padding-bottom: 20px;
 }
 
+
+
 .footer-style {
   background: #add8e6 !important; 
 }
+/* 
+html {
+  background-color: rgba(238, 238, 238, 0.5) !important;
+  background-image: url(../assets/img/books.png);
+  background-blend-mode: color;
+} */
 
