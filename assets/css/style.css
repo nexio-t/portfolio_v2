@@ -21,6 +21,11 @@
   /* margin: 5px;  */
 }
 
+
+.custom-gradient {
+  margin-top: -80px;
+}
+
 .imgwrap {
   width: auto; /*or whatever you choose*/
   margin: auto;
