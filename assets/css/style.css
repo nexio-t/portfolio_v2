@@ -133,7 +133,6 @@ h1 {
 }
 
 
-
 .navbar-height {
   height: 50px;
 }
@@ -143,10 +142,8 @@ h1 {
   padding-bottom: 20px;
 }
 
-
-
-.footer-style {
-  background: #add8e6 !important; 
+footer.footer.footer-style {
+  background-color:#9cc6e8 !important; 
 }
 /* 
 html {
