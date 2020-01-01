@@ -21,7 +21,6 @@
   /* margin: 5px;  */
 }
 
-
 .custom-gradient {
   margin-top: -80px;
 }
@@ -145,6 +144,22 @@ h1 {
 footer.footer.footer-style {
   background-color:#9cc6e8 !important; 
 }
+
+@media only screen and (max-width: 600px) {
+
+  .hero-body {
+    height: 900px !important;
+  }
+
+  .intro-welcome {
+    margin-top:300px !important;
+  }
+
+  /* .navbar-brand {
+
+  } */
+}
+
 /* 
 html {
   background-color: rgba(238, 238, 238, 0.5) !important;
