@@ -152,12 +152,13 @@ footer.footer.footer-style {
   }
 
   .intro-welcome {
-    margin-top:300px !important;
+    margin-top: 300px !important;
   }
 
-  /* .navbar-brand {
-
-  } */
+  /* nav .navbar .is-fixed-top .navigation-bar .navbar-change-transparent {
+    height: 20px;
+  }  */
+  
 }
 
 /* 
