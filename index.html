@@ -18,6 +18,7 @@
 
   <!--Google Fonts-->
   <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Montserrat&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -60,21 +61,34 @@
           <!-- <img class="tomas-image" src="assets/images/headshot.png" alt="Tomas' Headshot" /> -->
         </div>
       </div>
-      <div class="container has-text-centered">
-        <p class="title intro-welcome">
-          Welcome! I'm Tomas Gear
-        </p>
-        <p class="bio-subtitle">
-            Philly-based Full-Stack Developer
-          </p>
-        <section>
-        <div class="arrow bounce begin-arrow"> 
-          <a href="#first-stop">
-          <i class="arrow-color fas fa-angle-double-down fa-2x"></i>
-        </a>
+
+      <div class="columns">
+        <div class="column">
+
         </div>
-      </section>
+        <div class="column is-half">
+            <div class="container ">
+                <p class="title intro-welcome has-text-centered">
+                  Welcome! </br> I'm Tomas Gear
+                </p>
+                <p class="bio-subtitle has-text-centered">
+                    Philly-based Full-Stack Developer
+                  </p>
+                <section>
+                <div class="arrow bounce begin-arrow"> 
+                  <a href="#first-stop">
+                  <i class="arrow-color fas fa-angle-double-down fa-2x"></i>
+                </a>
+                </div>
+              </section>
+              </div>
+        </div>
+        <div class="column">
+
+        </div>
+
       </div>
+     
     </div>
 
     <div class="start-change"></div>
@@ -138,7 +152,7 @@
           </header>
           <div class="card-content is-hidden">
             <div class="content">
-              Full-stack note-taking web app using HTML5, CSS3, Bootstrap, MySQL, Handlebars, Heroku, and Passport. 
+              Full-stack note-taking web app that allows users to search for books, save books, and take notes on saved books, all within a unique account. Project was built using HTML5, CSS3, Bootstrap, Sequelize (ORM), MySQL, Node.js, Express, Handlebars, and Passport for authentication. My contributions to this project included operationalizing the app's CRUD functionality with MySQL, Sequelize, Node, and Express. 
             </div>
           </div>
           <footer class="card-footer">
@@ -158,36 +172,37 @@
       </div>
 
       <div class="column project-card">
-        <div class="card is-fullwidth">
-          <div class="card-image">
-            <figure class="image is-4by3">
-              <img src="assets/images/event-finder.png" alt="Placeholder image" />
-            </figure>
-          </div>
-          <header class="card-header">
-            <p class="card-header-title">Event Finder</p>
-            <a class="card-header-icon card-toggle">
-              <i class="fa fa-angle-down"></i>
-            </a>
-          </header>
-          <div class="card-content is-hidden">
-            <div class="content">
-                Team-based project using HTML5, CSS3, Bootstrap, JavaScript, and jQuery that finds events, weather, and news for U.S. cities.
+          <div class="card is-fullwidth">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="assets/images/Distractify.png" alt="Placeholder image" />
+              </figure>
             </div>
+            <header class="card-header">
+              <p class="card-header-title">Distractify</p>
+              <a class="card-header-icon card-toggle">
+                <i class="fa fa-angle-down"></i>
+              </a>
+            </header>
+            <div class="card-content is-hidden">
+              <div class="content">
+                  Distractify is a full-stack web app using the MERN stack. It's aim is to help people find distractions (that is, videos) from the YouTube API and save them for later procrastinating instead of immediate binging. This project was built using React, CSS3, Bulma, Node.js, Express, and MongoDB.
+              </div>
+            </div>
+            <footer class="card-footer">
+              <p class="card-footer-item">
+                <span>
+                  <a href="https://sleepy-stream-52018.herokuapp.com/"> <i class="fas fa-mouse-pointer"></i> Live</a>
+                </span>
+              </p>
+              <p class="card-footer-item">
+                <span> <a href="https://github.com/nexio-t/mern-app"> <i class="fab fa-github"></i> Github</a> </span>
+              </p>
+            </footer>
           </div>
-          <footer class="card-footer">
-            <p class="card-footer-item">
-              <span>
-              
-                <a href="https://nexio-t.github.io/project1/">   <i class="fas fa-mouse-pointer"></i> Live</a>
-              </span>
-            </p>
-            <p class="card-footer-item">
-              <span>  <a href="https://github.com/nexio-t/project1"> <i class="fab fa-github"></i> Github</a> </span>
-            </p>
-          </footer>
         </div>
-      </div>
+
+    
 
       <div class="column project-card">
           <div class="card is-fullwidth">
@@ -204,7 +219,7 @@
             </header>
             <div class="card-content is-hidden">
               <div class="content">
-                 Web Scraper using Handlebars.js, Node.js, Express, Javascript, and MongoDB. 
+                  Run Scraper is a full-stack web app that scrapes www.runningintheusa.com for the latest road and trail races across the country. The app performs all CRUD operations and includes the ability to save races and add notes or comments to a race. Technologies used include CSS3, Bootstrap, JavaScript, jQuery, Handlebars, Node.js, Express, and MongoDB. 
               </div>
             </div>
             <footer class="card-footer">
@@ -227,66 +242,36 @@
     <div class="columns">
 
       <div class="column project-card">
-        <div class="card is-fullwidth">
-          <div class="card-image">
-            <figure class="image is-4by3">
-              <img src="assets/images/word-guess.png" alt="Placeholder image" />
-            </figure>
-          </div>
-          <header class="card-header">
-            <p class="card-header-title">Word Guess Game</p>
-            <a class="card-header-icon card-toggle">
-              <i class="fa fa-angle-down"></i>
-            </a>
-          </header>
-          <div class="card-content is-hidden">
-            <div class="content">
-               Javascript-based game simulating the functionality of a hangman game.
+          <div class="card is-fullwidth">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="assets/images/event-finder.png" alt="Placeholder image" />
+              </figure>
             </div>
-          </div>
-          <footer class="card-footer">
-            <p class="card-footer-item">
-              <span>
-                <a href="https://nexio-t.github.io/javascript_game/"> <i class="fas fa-mouse-pointer"></i> Live</a>
-              </span>
-            </p>
-            <p class="card-footer-item">
-              <span>  <a href="https://github.com/nexio-t/javascript_game"> <i class="fab fa-github"></i> Github</a> </span>
-            </p>
-          </footer>
-        </div>
-      </div>
-
-      <div class="column project-card">
-        <div class="card is-fullwidth">
-          <div class="card-image">
-            <figure class="image is-4by3">
-              <img src="assets/images/Distractify.png" alt="Placeholder image" />
-            </figure>
-          </div>
-          <header class="card-header">
-            <p class="card-header-title">Distractify</p>
-            <a class="card-header-icon card-toggle">
-              <i class="fa fa-angle-down"></i>
-            </a>
-          </header>
-          <div class="card-content is-hidden">
-            <div class="content">
-                Full-stack web app using React, Node.js, Express, and MongoDB. Allows users to search and save videos using the YouTube API.
+            <header class="card-header">
+              <p class="card-header-title">Event Finder</p>
+              <a class="card-header-icon card-toggle">
+                <i class="fa fa-angle-down"></i>
+              </a>
+            </header>
+            <div class="card-content is-hidden">
+              <div class="content">
+                  Event Finder allows users to find news, weather, and events for an U.S. city. This team-based project was built using HTML5, CSS3, Bootstrap, JavaScript, and jQuery. My contributions to this project included integrating the OpenWeather and EventBrite APIs and processing the JSON responses from AJAX calls. 
+              </div>
             </div>
+            <footer class="card-footer">
+              <p class="card-footer-item">
+                <span>
+                
+                  <a href="https://nexio-t.github.io/project1/">   <i class="fas fa-mouse-pointer"></i> Live</a>
+                </span>
+              </p>
+              <p class="card-footer-item">
+                <span>  <a href="https://github.com/nexio-t/project1"> <i class="fab fa-github"></i> Github</a> </span>
+              </p>
+            </footer>
           </div>
-          <footer class="card-footer">
-            <p class="card-footer-item">
-              <span>
-                <a href="https://sleepy-stream-52018.herokuapp.com/"> <i class="fas fa-mouse-pointer"></i> Live</a>
-              </span>
-            </p>
-            <p class="card-footer-item">
-              <span> <a href="https://github.com/nexio-t/mern-app"> <i class="fab fa-github"></i> Github</a> </span>
-            </p>
-          </footer>
         </div>
-      </div>
       
       <div class="column project-card">
           <div class="card is-fullwidth">
@@ -303,7 +288,7 @@
             </header>
             <div class="card-content is-hidden">
               <div class="content">
-                 Full-stack web-based app simulating the matchmaking experience of quizzes / dating services. 
+                  Pro match is a web-based application that simulates the match-making experience of online quizzes or dating services. In short, it takes user responses to the quiz questions to match them to a professional athlete with similar personality characteristics. Technologies used include HTML5, CSS3, Bootstrap, JavaScript, Node.js, and Express. 
               </div>
             </div>
             <footer class="card-footer">
@@ -318,14 +303,40 @@
             </footer>
           </div>
         </div>
-   
+        
+        <div class="column project-card">
+            <div class="card is-fullwidth">
+              <div class="card-image">
+                <figure class="image is-4by3">
+                  <img src="assets/images/word-guess.png" alt="Placeholder image" />
+                </figure>
+              </div>
+              <header class="card-header">
+                <p class="card-header-title">Word Guess Game</p>
+                <a class="card-header-icon card-toggle">
+                  <i class="fa fa-angle-down"></i>
+                </a>
+              </header>
+              <div class="card-content is-hidden">
+                <div class="content">
+                   Javascript-based game simulating the functionality of a hangman game. Technologies include HTML5, CSS3, and JavaScript. 
+                </div>
+              </div>
+              <footer class="card-footer">
+                <p class="card-footer-item">
+                  <span>
+                    <a href="https://nexio-t.github.io/javascript_game/"> <i class="fas fa-mouse-pointer"></i> Live</a>
+                  </span>
+                </p>
+                <p class="card-footer-item">
+                  <span>  <a href="https://github.com/nexio-t/javascript_game"> <i class="fab fa-github"></i> Github</a> </span>
+                </p>
+              </footer>
+            </div>
+          </div>
      
     </div>
-
-    
-
   </section>
-
 
   <section class="section anchor contact-info" id="third-stop">
     <div class="container">

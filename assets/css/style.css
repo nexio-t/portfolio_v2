@@ -2,7 +2,7 @@
   background: url("../images/phillySkyline.png") center center;
   background-size: cover;
   z-index: 2; 
-  background-color: rgba(139, 186, 230, 0.75) !important;
+  background-color: rgba(139, 186, 230, 0.80) !important;
   background-blend-mode: color;
 }
 
@@ -113,9 +113,10 @@ h1 {
 }
 
 .intro-welcome {
-  font-family: "Josefin Sans", sans-serif;
+  font-family: 'Playfair Display', serif;
+
   font-weight: 800;
-  font-size: 32pt; 
+  font-size: 3.5rem; 
   margin-top: 80px; 
   color: #323232;
 }
@@ -125,7 +126,7 @@ h1 {
 }
 
 .bio-subtitle {
-  font-family: "Josefin Sans", sans-serif;
+  font-family: 'Playfair Display', serif;
   font-weight: 600; 
   font-size: 20pt; 
   color: #323232;

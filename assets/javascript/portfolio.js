@@ -36,21 +36,21 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
   // Navigation bar change to transparent 
-  var scroll_start = 0;
-  var startchange = $(".start-change");
-  var offset = startchange.offset();
-  $(document).scroll(function() {
-    scroll_start = $(this).scrollTop();
-    console.log(scroll_start);
-    console.log(offset.top);
-    if (scroll_start > offset.top - 300) {
-      $(".navigation-bar").removeClass("navbar-change-transparent");
-      $(".navigation-bar").addClass("navbar-change-white");
-    } else {
-      $(".navigation-bar").removeClass("navbar-change-white");
-      $(".navigation-bar").addClass("navbar-change-transparent");
-    }
-  });
+  // var scroll_start = 0;
+  // var startchange = $(".start-change");
+  // var offset = startchange.offset();
+  // $(document).scroll(function() {
+  //   scroll_start = $(this).scrollTop();
+  //   console.log(scroll_start);
+  //   console.log(offset.top);
+  //   if (scroll_start > offset.top - 300) {
+  //     $(".navigation-bar").removeClass("navbar-change-transparent");
+  //     $(".navigation-bar").addClass("navbar-change-white");
+  //   } else {
+  //     $(".navigation-bar").removeClass("navbar-change-white");
+  //     $(".navigation-bar").addClass("navbar-change-transparent");
+  //   }
+  // });
 
 // Scroll to relevant section 
   $('a[href^="#"]').on('click', function(e) {
@@ -62,6 +62,49 @@ document.addEventListener("DOMContentLoaded", function() {
         }, 1000);
     }
 });
+
+
+
+var mq = window.matchMedia( "(max-width: 570px)" );
+if (mq.matches) {
+   console.log("less than 570px");
+     // Navigation bar change to transparent 
+  var scroll_start = 0;
+  var startchange = $(".start-change");
+  var offset = startchange.offset();
+  $(document).scroll(function() {
+    scroll_start = $(this).scrollTop();
+    console.log(scroll_start);
+    console.log(offset.top);
+    if (scroll_start > offset.top - 700) {
+      $(".navigation-bar").removeClass("navbar-change-transparent");
+      $(".navigation-bar").addClass("navbar-change-white");
+    } else {
+      $(".navigation-bar").removeClass("navbar-change-white");
+      $(".navigation-bar").addClass("navbar-change-transparent");
+    }
+  });
+}
+else {
+   console.log("greater than 570px");
+    //  Navigation bar change to transparent 
+  var scroll_start = 0;
+  var startchange = $(".start-change");
+  var offset = startchange.offset();
+  $(document).scroll(function() {
+    scroll_start = $(this).scrollTop();
+    console.log(scroll_start);
+    console.log(offset.top);
+    if (scroll_start > offset.top - 500) {
+      $(".navigation-bar").removeClass("navbar-change-transparent");
+      $(".navigation-bar").addClass("navbar-change-white");
+    } else {
+      $(".navigation-bar").removeClass("navbar-change-white");
+      $(".navigation-bar").addClass("navbar-change-transparent");
+    }
+  });
+}
+
 
 
 
